@@ -1,2 +1,2 @@
-Architecture diagram for comp3900
-import on apps.diagram.net
+Architecture diagram for comp3900\n
+import [here](apps.diagrams.net)

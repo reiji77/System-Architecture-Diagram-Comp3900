@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2563" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2363" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,6 +55,11 @@
         <mxCell id="PpxsihZTZuUaO5u2h4L1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PpxsihZTZuUaO5u2h4L1-23" target="PpxsihZTZuUaO5u2h4L1-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="1u-_pfhtyTLLwPNVU5PU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PpxsihZTZuUaO5u2h4L1-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-410" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PpxsihZTZuUaO5u2h4L1-23" value="User Manager" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-470" y="291.94" width="120" height="60" as="geometry" />
         </mxCell>
@@ -66,13 +71,18 @@
             <mxPoint x="-410" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZrEDiFBJkC5he7-4wCsP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PpxsihZTZuUaO5u2h4L1-24" target="ZrEDiFBJkC5he7-4wCsP-5">
+        <mxCell id="ZrEDiFBJkC5he7-4wCsP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PpxsihZTZuUaO5u2h4L1-24" target="ZrEDiFBJkC5he7-4wCsP-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PpxsihZTZuUaO5u2h4L1-24" value="Request System" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-470" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PpxsihZTZuUaO5u2h4L1-26" value="Calling API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="1u-_pfhtyTLLwPNVU5PU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PpxsihZTZuUaO5u2h4L1-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-200" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpxsihZTZuUaO5u2h4L1-26" value="Chat API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-260" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PpxsihZTZuUaO5u2h4L1-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="PpxsihZTZuUaO5u2h4L1-29" edge="1">
@@ -97,20 +107,37 @@
         <mxCell id="PpxsihZTZuUaO5u2h4L1-39" value="MongoDB" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-60" y="294.44" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PpxsihZTZuUaO5u2h4L1-40" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;User Creation/&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Information update&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-350" y="285" width="90" height="40" as="geometry" />
+        <mxCell id="PpxsihZTZuUaO5u2h4L1-40" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;User Creation/&lt;/font&gt;&lt;div style=&quot;font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Information update/Admin&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-355" y="285" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZrEDiFBJkC5he7-4wCsP-1" value="Admins" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZrEDiFBJkC5he7-4wCsP-1" value="Admins" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1130" y="435" width="100" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="ZrEDiFBJkC5he7-4wCsP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZrEDiFBJkC5he7-4wCsP-3" target="PpxsihZTZuUaO5u2h4L1-1">
+        <mxCell id="ZrEDiFBJkC5he7-4wCsP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZrEDiFBJkC5he7-4wCsP-3" target="PpxsihZTZuUaO5u2h4L1-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZrEDiFBJkC5he7-4wCsP-3" value="Admin Panel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZrEDiFBJkC5he7-4wCsP-3" value="Admin Panel" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-970" y="140" width="100" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="ZrEDiFBJkC5he7-4wCsP-5" value="Chat API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZrEDiFBJkC5he7-4wCsP-5" value="Calling API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-260" y="34.44" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1u-_pfhtyTLLwPNVU5PU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1u-_pfhtyTLLwPNVU5PU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-260" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1u-_pfhtyTLLwPNVU5PU-1" value="Payment Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="414" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1u-_pfhtyTLLwPNVU5PU-4" value="AWS Card Verification API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="414" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1u-_pfhtyTLLwPNVU5PU-5" value="Get user info&lt;div&gt;&lt;br&gt;&lt;div&gt;Get appropriate staff&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1u-_pfhtyTLLwPNVU5PU-9" value="Store Chat" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="215" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
